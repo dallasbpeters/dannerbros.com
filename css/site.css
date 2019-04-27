@@ -45,7 +45,7 @@ body {
         url('../img/hero.jpg');
     background-size: cover;
     background-position: center center;
-    min-height: 80vh;
+    min-height: 90%;
 }
 
 .hero__header {
@@ -100,6 +100,7 @@ body {
     .hero__intro {
         max-width: 700px;
         padding: 48px;
+        margin-bottom: 72px;
     }
 }
 .hero__intro h1 {
@@ -118,8 +119,13 @@ body {
 
 
 /* Moto blurb mobile */
-.moto-blurbs {
+.moto-blurbs.mobile {
     padding: 24px;
+}
+@media screen and (min-width: 700px) {
+    .moto-blurbs.mobile {
+        display: none;
+    }
 }
 .moto-blurbs__blurb h2 {
     margin: 0;
@@ -138,4 +144,24 @@ body {
 }
 .moto-blurbs__blurb p {
     color: #6b6b6b;
+    max-width: 75%;
+}
+
+.moto-blurbs.tabletup {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    max-width: 75%;
+    padding: 24px;
+}
+@media screen and (max-width: 700px){
+    .moto-blurbs.tabletup {
+        display: none;
+    }
+}
+.moto-blurbs.tabletup .moto-blurbs__blurb {
+    padding: 24px;
+}
+.moto-blurbs.tabletup .moto-blurbs__blurb p {
+    max-width: 100%;
 }
