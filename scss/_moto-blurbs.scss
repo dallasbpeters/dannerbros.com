@@ -1,0 +1,43 @@
+/* Moto blurb mobile */
+.moto-blurbs.mobile {
+  padding: 24px;
+  @media screen and (min-width: 700px) {
+    display: none;
+  }
+  h2 {
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+    padding-bottom: 16px;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 30px;
+      height: 4px;
+      background: #c4c4c4;
+    }
+  }
+  p {
+    color: #6b6b6b;
+    max-width: 75%;
+  }
+}
+
+.moto-blurbs.tabletup {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  max-width: 75%;
+  padding: 24px;
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+  .moto-blurbs__blurb {
+    padding: 24px;
+  }
+  p {
+    max-width: 100%;
+  }
+}
