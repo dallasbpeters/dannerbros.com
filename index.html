@@ -1,51 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/boilerplate.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <meta name="theme-color" content="#fafafa" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139192925-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/boilerplate.css">
-  <link rel="stylesheet" href="css/site.css">
-  <meta name="theme-color" content="#fafafa">
-</head>
+      gtag("config", "UA-139192925-1");
+    </script>
+  </head>
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
     <div class="hero">
-
       <div class="hero__header">
-        <img class="hero__header__logo" src="img/dannerbros-logo.svg" alt="Danner Brothers Construction logo">
+        <img
+          class="hero__header__logo"
+          src="img/dannerbros-logo.svg"
+          alt="Danner Brothers Construction logo"
+        />
         <ul class="hero__header__navigation">
           <li><a href="#">About Us</a></li>
           <li><a href="#">Our Work</a></li>
           <li><a href="#">Start a Project</a></li>
         </ul>
+        <div class="intro">
+          <h1 class="lead-in">
+            Intergrity. Partnership. Commitment.
+          </h1>
+          <p>
+            Building is our passion. We build with an obsessive attention to
+            detail. And that has brought more than a few very large smiles to
+            our clients faces. I’m not a copywriter. This is kinda cheesy.
+          </p>
+        </div>
       </div>
-
     </div>
-  
-  
-  <!-- Scripts and footer stuff -->
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
-
+    <!-- Scripts and footer stuff -->
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
