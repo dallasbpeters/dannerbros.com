@@ -1,4 +1,16 @@
 .gallery {
   background: #f8f8f8;
-  padding: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  a {
+    width: 50%;
+    @media screen and (min-width: 700px) {
+      width: calc(100% / 4);
+    }
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
 }
