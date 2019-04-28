@@ -28,14 +28,17 @@
 }
 .section__left {
   margin: 24px;
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    flex-basis: 180px;
+  }
+  @media screen and (min-width: 1025px) {
+    flex-basis: 300px;
+  }
 }
 .section-text-wrapper {
   margin: 24px;
 }
 @media screen and (min-width: 700px) {
-  .section__left {
-    flex-basis: 300px;
-  }
   .section__right {
     flex: 1;
     max-width: 775px;

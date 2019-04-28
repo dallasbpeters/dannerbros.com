@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center center;
   min-height: 90%;
+  position: relative;
 }
 
 .hero__header {
@@ -31,23 +32,32 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+  li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 8px;
+    margin: 0 8px;
+    position: relative;
+  }
+  li a:hover:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: white;
+  }
+  &.nav-fixed {
+    background-color: #111111;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+  }
 }
-.hero__header__navigation li a {
-  color: white;
-  text-decoration: none;
-  padding: 16px 0;
-  margin: 0 8px;
-  position: relative;
-}
-.hero__header__navigation li a:hover:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: white;
-}
+
 /* Big headline and blurb */
 .hero__intro {
   color: #ffffff;
@@ -71,5 +81,5 @@
   }
 }
 .hero__intro p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }

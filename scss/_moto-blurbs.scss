@@ -52,6 +52,9 @@
   p {
     color: #6b6b6b;
     max-width: 75%;
+    @media screen and (min-width: 700px) and (max-width: 1024px) {
+      font-size: 15px;
+    }
   }
   .moto-blurbs__blurb {
     margin: 24px;
