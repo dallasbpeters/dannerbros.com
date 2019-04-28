@@ -1,4 +1,7 @@
 /* Base Stuff */
+* {
+  box-sizing: border-box;
+}
 body {
   font: 16px/1.3 "Circular", sans-serif;
   font-weight: 200;
