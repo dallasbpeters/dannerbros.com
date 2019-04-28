@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // fix the navigation to the top once we start to scroll the page.
   $(function() {
     var hero__header__navigation = $(".nav-default");
     $(window).scroll(function() {
