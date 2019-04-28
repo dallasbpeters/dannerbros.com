@@ -37,9 +37,10 @@
     color: white;
     display: block;
     text-decoration: none;
-    padding: 16px 8px;
+    padding: 16px 4px;
     margin: 0 8px;
     position: relative;
+    font-size: 15px;
   }
   li a:hover:after {
     content: "";
