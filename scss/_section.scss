@@ -46,19 +46,6 @@
   }
 }
 
-.contact-card {
-  .contact-info {
-    padding: 24px;
-    @media screen and (min-width: 700px) {
-      padding: 24px 0 0 0;
-    }
-  }
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
-
 .main-contact {
   padding: 24px 0;
   p {
@@ -68,11 +55,4 @@
   }
 }
 @media screen and (min-width: 700px) {
-  .contact-card-wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-  .contact-card {
-    padding: 24px;
-  }
 }
