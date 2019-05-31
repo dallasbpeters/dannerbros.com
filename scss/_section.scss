@@ -23,10 +23,15 @@
     color: #6b6b6b;
     margin: 0;
   }
+  li {
+    color: #6b6b6b;
+  }
   img {
     width: 100%;
+    margin-bottom: 16px;
   }
 }
+
 .section__left {
   margin: 24px;
   @media screen and (min-width: 700px) and (max-width: 1024px) {

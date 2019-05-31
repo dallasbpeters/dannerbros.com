@@ -623,6 +623,10 @@ a {
   font-weight: normal;
   font-style: normal;
 }
+.caption {
+  color: #6b6b6b;
+}
+
 /* Hero Header Stuff */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero.jpg");
@@ -841,8 +845,12 @@ a {
   color: #6b6b6b;
   margin: 0;
 }
+.section li {
+  color: #6b6b6b;
+}
 .section img {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .section__left {
