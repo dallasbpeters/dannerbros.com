@@ -629,7 +629,6 @@ a {
 
 /* Hero Header Stuff */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 90%;
@@ -672,6 +671,7 @@ a {
 }
 .hero__intro h1 {
   font-size: 3rem;
+  text-shadow: 3px 3px 0px black;
   font-weight: 900;
   margin: 0;
 }
@@ -683,6 +683,7 @@ a {
 }
 .hero__intro p {
   font-size: 1.3rem;
+  text-shadow: 1px 1px 0px black;
 }
 
 /* Navigation bar */

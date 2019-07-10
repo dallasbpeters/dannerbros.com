@@ -17,6 +17,12 @@ $(document).ready(function() {
     });
   });
 
+  var images = ["hero-1.jpg", "hero-2.jpg", "hero-3.jpg"];
+  $(".hero").css({
+    "background-image":
+      "url(img/" + images[Math.floor(Math.random() * images.length)] + ")"
+  });
+
   // Add smooth scrolling to all links
   $("a").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
